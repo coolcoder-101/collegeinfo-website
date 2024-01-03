@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campuses Center</title>
+    <style>
+        
+        .left {
+          float: left; 
+          padding-right: 50px;
+        }
+        hr{
+            height: 3px;
+            background-color: black;
+        }
+        a{
+            color: black;
+            text-decoration:none
+        }
+
+        
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color: #D8cfd0;
+            background-size: 100%;
+            opacity:0.8;
+            background-repeat: no-repeat;
+            font-family: Verdana, sans-serif;
+        }
+ 
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1000px;
+        }
+
+        .photo {
+            width: 30%;
+            margin: 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .photo img {
+            width: 70%;
+            height: 60%;
+        }
+
+        .photo:hover {
+            transform: scale(1.05);
+            background-color:#b1a6a4;
+        }
+
+        .button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color:#8d7b78;
+            color: white;
+        }
+        .button:hover {
+            background-color:black;
+        }
+        .p{
+            font-family: Georgia , serif;
+            font-size: 16px;
+            text-align: justify;
+        }
+        .text {
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color:#494d5d;
+        }
+        #main{
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+            box-shadow: 3px 3px 5px  #8d7b78;
+        }
+        #strip{
+            background-color: #D8cfd0;
+            width: 100%;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 150px; width:100%; background-color: #b1a6a4; color: #000000; text-align:center ; font-size: 30px;display: flex; align-items: center; justify-content: center; ">
+        
+        <h1><b><a href="home.html">LIBERTY UNIVERSITY</a></b></h1>
+        
+    </div>
+    <table style="background-color: #8d7b78; border: 10px; border-color: aqua; width:100%; ">
+        <tr>
+            <th>
+
+                <a href="Home-Programs.html">Programs</a>
+            </th>
+            <th>
+                <a href="Home-Campuses.html">Campuses</a> 
+            </th>
+            <th>
+                <a href="Alumni.html">Aluminis</a>
+            </th>
+            <th>
+                <a href="About us.html">About Us</a>
+            </th>
+            <th>
+                <a href="login.html">Login </a> 
+            </th>
+            <th>
+                <a href="Query.html">Query</a>
+            </th>
+            <th>
+                <a href="Contact.html">Contact Us</a>
+            </th>
+        </tr>
+    </table>
+
+
+    <div id="strip">
+    <h1>CAMPUSES</h1>
+    </div>
+    <p id="main">Welcome to our college campuses, where educational excellence meets a vibrant and inclusive community. Our campuses serve as dynamic hubs of learning, innovation, and personal growth. Nestled in picturesque surroundings, our state-of-the-art facilities provide students with a stimulating environment for academic pursuits and extracurricular activities. With a commitment to fostering creativity and critical thinking, our dedicated faculty, cutting-edge research centers, and well-equipped libraries are here to empower the leaders of tomorrow. At our college campuses, you'll find a rich tapestry of cultural diversity, with students from around the world coming together to share experiences, ideas, and dreams. Join us on this transformative journey, where each day brings new opportunities to excel, explore, and build lifelong connections.</p>
+    <div class="container">
+        <div class="photo">
+        <img src="mumbai.jpg" alt="Image 1">
+        <p class="text">Mumbai</p>
+        <a href="mumbai.html">
+            <button class="button">Read More</button>
+        </a>
+    </div>
+    <div class="photo">
+        <img src="hyderabad.jpg" alt="Image 5">
+        <p class="text">Hyderabad</p>
+        <a href="hyderabad.html">
+            <button class="button">Read More</button>
+        </a>
+    </div>
+    <div class="photo">
+        <img src="indore.jpg" alt="Image 3">
+        <p class="text">Indore</p>
+        <a href="indore.html">
+            <button class="button">Read More</button>
+        </a>
+    </div>
+    <div class="photo">
+        <img src="chandigarh.jpeg" alt="Image 4">
+        <p class="text">Chandigarh</p>
+        <a href="chandigarh.html">
+            <button class="button">Read More</button>
+        </a>
+    </div>
+    <div class="photo">
+        <img src="shirpur.jpeg" alt="Image 2">
+        <p class="text">Shirpur</p>
+        <a href="shirpur.html">
+            <button class="button">Read More</button>
+        </a>
+    </div>
+    <div class="photo">
+        <img src="bangalore.jpg" alt="Image 6">
+        <p class="text">Bengaluru</p>
+        <a href="bangalore.html">
+            <button class="button">Read More</button>
+        </a>
+    </div>
+    </div>
+    
+</body>
+</html>

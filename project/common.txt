@@ -1,0 +1,117 @@
+body{
+    background-color: #D8cfd0;
+    background-size: 100%;
+    opacity:0.8;
+    background-repeat: no-repeat;
+    font-family: Verdana, sans-serif;
+}
+
+.left {
+  float: left; 
+  padding-right: 50px;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+a{
+    color: black;
+    text-decoration:none
+}
+
+
+
+
+
+
+<div style="height: 150px; width:auto; background-color: #b1a6a4; color: #000000; text-align:center ; font-size: 30px;display: flex; align-items: center; justify-content: center; ">
+        
+        <h1><b><a href="home.html">LIBERTY UNIVERSITY</a></b></h1>
+        
+    </div>
+    <table style="background-color: #8d7b78; border: 10px; border-color: aqua; width:100%; ">
+        <tr>
+            <th>
+
+                <a href="#programs">Programs</a>
+            </th>
+            <th>
+                <a href="#campuses.html">Campuses</a> 
+            </th>
+            <th>
+                <a href="#Aluminis.html">Aluminis</a>
+            </th>
+            <th>
+                <a href="About us.html">About Us</a>
+            </th>
+            <th>
+                <a href="login.html">Login </a> 
+            </th>
+            <th>
+                <a href="Query.html">Query</a>
+            </th>
+            <th>
+                <a href="#Contact.html">Contact Us</a>
+            </th>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+<hr>
+<footer>
+    <div class="row no-gutters ">
+       <div class="left">
+          <h4>Campuses</h4>
+          <ul>
+             <li><a href="mumbaicampus"> Mumbai</a></li>
+             <li><a href="shirpurcampus">Shirpur</a></li>
+             <li><a href="bengalurucampus">Bengaluru</a></li>
+             <li><a href="hyderabadcampus">Hyderabad</a></li>
+             <li><a href="indorecampus">Indore</a></li>          
+             <li><a href="chandigarhcampus">Chandigarh</a></li>
+          </ul>
+       </div>
+       <div class="left">
+          <h4>About Us</h4>
+          <ul>
+             <li><a href="About us.html#upl">Unparalleled legacy</a></li>
+             <li><a href="About us.html#eag">Evolution and growth</a></li>
+             <li><a href="About us.html#ha"> Holistic approach</a></li>
+                <li><a href="About us.html#upldai">Diversity and Innovation</a></li>
+                 <li><a href="About us.html#cfl"> Creating future leaders</a></li>          
+          </ul>
+       </div>
+       <div class="left">
+          <h4><a href="Home1.html"> Programs</a></h4>
+          <ul>
+             <li><a href="diploma.html">Diploma Programme</a></li>
+             <li><a href="under.html">Under-Graduate Program</a></li>
+             <li><a href="integrated.html">Integrated Programs</a></li>
+             <li><a href="phd.html">PHD</a></li>
+             <li><a href="post.html">Post-Graduate</a></li>
+          </ul>
+       </div>
+       <div class="left">
+          <h4>Locate us: </h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.716312156525!2d-79.1809872241363!3d37.34922437209572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b2da8aa0f0d911%3A0x30558782ca2ccf0e!2sLiberty%20University!5e0!3m2!1sen!2sin!4v1698142432252!5m2!1sen!2sin" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="left">
+            <h4>
+                Contact us:
+            </h4>
+            <p>
+                V. L. Mehta Road, Vile Parle,
+                West, Mumbai, Maharashtra, India, Pin Code - 400 056
+                022 4235 5555
+            </p>
+          </div>
+    </div>
+ </footer>

@@ -1,0 +1,301 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Bengaluru Campus</title>
+    <style>
+
+        .left {
+            float: left; 
+            padding-right: 50px;
+          }
+          hr{
+              height: 3px;
+              background-color: black;
+          }
+          a{
+              color: black;
+              text-decoration:none
+          }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #b1a6a4;
+        }
+        table, th, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+        td:hover {
+        transform: scale(1.1); 
+        transition: transform 0.3s;
+        }
+        #main{
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+            box-shadow: 3px 3px 5px;
+            background-color: #b1a6a4;
+        }
+        p{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-family: Georgia , serif;
+        }
+        #demo {
+            margin: 0 auto;
+            width: 70%;
+            position: relative;
+        }  
+        * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+
+/* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {font-size: 11px}
+        }
+        .cards-container {
+            text-align: center; /* Center-align the container */
+        }
+
+        .card {
+            width: 700px;
+            height: 100px;
+            background-color: white;
+            border: 2px solid black;
+            margin: 10px auto; /* Center-align the cards */
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            transform: translateX(0); /* Initial position */
+            transition: transform 0.5s;
+        }
+
+        .left-slide {
+            animation: slide-in-left 1s both;
+        }
+
+        .right-slide {
+            animation: slide-in-right 1s both;
+        }
+
+        .card-content {
+            padding: 10px;
+            text-align: center;
+        }
+
+        @keyframes slide-in-left {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slide-in-right {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        #campus{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="background-color:#D8cfd0;">
+    <h1>Bengaluru</h1>
+    <p id="main">Nestled in the vibrant city of Bengaluru, our college's Bengaluru campus is a hub of innovation and excellence in education. Surrounded by the city's dynamic tech and business ecosystem, this campus perfectly embodies our commitment to providing cutting-edge learning experiences in an urban setting. With world-class facilities, a renowned faculty, and a diverse student body, our Bengaluru campus offers a diverse range of academic programs and a myriad of extracurricular opportunities. Our core values of academic rigor, research, and community engagement come to life in this thriving campus, where students are empowered to become well-rounded individuals poised for success in a rapidly evolving world. Whether your academic interests lie in technology, business, or any other field, our Bengaluru campus opens doors to a world of knowledge, creativity, and endless possibilities. Welcome to a campus that defines the future of education and innovation.</p>
+    <div class="cards-container">
+        <div class="card left-slide">
+            <div class="card-content">2SAQS Accredited</div>
+        </div>
+        <div class="card right-slide">
+            <div class="card-content">3rd Best in Bengaluru by India Today, 2018</div>
+        </div>
+    </div>
+    <div class="cards-container">
+        <div class="card left-slide">
+            <div class="card-content">5th Best B-School in South India by Business Today 2019</div>
+        </div>
+        <div class="card right-slide">
+            <div class="card-content">10th Best B-Schools in India for Future orientation by India Today in 2018</div>
+        </div>
+    </div>
+    <div class="cards-container">
+        <div class="card left-slide">
+            <div class="card-content">Ranked 13th as the Best in Future Orientation by Business Today 2019</div>
+        </div>
+        <div class="card right-slide">
+            <div class="card-content">AICTE approved</div>
+        </div>
+    </div>
+        <br>
+        <p id="campus">Centers of Excellence</p>
+        <table>
+            <tr>
+                <td>School of Commerce</td>
+                <td>School of Management</td>
+                <td>School of Law</td>
+            </tr>
+            <tr>
+                <td>School of Economics</td>
+                <td>School of Science</td>
+                <td>School of Mathematics,Applied Statistics & Analytics</td>
+            </tr>
+        </table>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+              <img src="bangalore.1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <img src="bangalore.2.jpg" style="width:100%">
+            </div>
+        </div>
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+
+            
+<hr>
+<footer>
+    <div class="row no-gutters ">
+       <div class="left">
+          <h4><a href="Home-Campuses.html">Campuses</h4>
+          <ul>
+            <li><a href="mumbai.html"> Mumbai</a></li>
+            <li><a href="shirpur.html">Shirpur</a></li>
+            <li><a href="bangalore.html">Bengaluru</a></li>
+            <li><a href="hyderabad.html">Hyderabad</a></li>
+            <li><a href="indore.html">Indore</a></li>          
+            <li><a href="chandigarh.html">Chandigarh</a></li>
+          </ul>
+       </div>
+       <div class="left">
+          <h4>About Us</h4>
+          <ul>
+             <li><a href="About us.html#upl">Unparalleled legacy</a></li>
+             <li><a href="About us.html#eag">Evolution and growth</a></li>
+             <li><a href="About us.html#ha"> Holistic approach</a></li>
+                <li><a href="About us.html#upldai">Diversity and Innovation</a></li>
+                 <li><a href="About us.html#cfl"> Creating future leaders</a></li>          
+          </ul>
+       </div>
+       <div class="left">
+        <h4><a href="Home-Programs.html"> Programs</a></h4>
+        <ul>
+           <li><a href="diploma.html">Diploma Programme</a></li>
+           <li><a href="under.html">Under-Graduate Program</a></li>
+           <li><a href="integrated.html">Integrated Programs</a></li>
+           <li><a href="phd.html">PHD</a></li>
+           <li><a href="post.html">Post-Graduate</a></li>
+        </ul>
+       </div>
+       <div class="left">
+          <h4>Locate us: </h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.716312156525!2d-79.1809872241363!3d37.34922437209572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b2da8aa0f0d911%3A0x30558782ca2ccf0e!2sLiberty%20University!5e0!3m2!1sen!2sin!4v1698142432252!5m2!1sen!2sin" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="left">
+            <h4>
+                Contact us:
+            </h4>
+            <p>
+                V. L. Mehta Road, Vile Parle,
+                West, Mumbai, Maharashtra, India, Pin Code - 400 056
+                022 4235 5555
+            </p>
+            <p>Toll Free - 1800 102 5138 - Monday to Saturday (except public holidays)</p>
+        <p>Counsellor desk for new program enquiry : 022 4235 5621 / 5622 / 5624</p>
+          </div>
+    </div>
+ </footer>
+</body>
+</html>
